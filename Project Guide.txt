@@ -1,0 +1,4 @@
+      // FRONTEND // 
+1. npx create-react-app frontend
+2. git init => Initialized empty Git repository 
+3. 
