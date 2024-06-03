@@ -1,4 +1,10 @@
-
+import { Container } from "react-bootstrap";
+import { Outlet } from "react-router-dom";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+// import HomeScreen from "./screens/HomeScreen.jsx"; //  Replaced by  <Outlet />
+import { ToastContainer } from "react-toastify"; 
+import "react-toastify/dist/ReactToastify.css";
 
 
 
@@ -7,12 +13,19 @@ const App = () => {
 
 
   return (
-       <> 
-             <h1> Welcome To ProShop </h1>
-       
-       
-       
-       </>
+       <>  
+               <Header />
+            <main className="py-3"> 
+            <Container>
+                <Outlet />
+            </Container>
+
+            </main> 
+            <Footer />  
+            <ToastContainer />
+
+        
+       </> 
   )
 }
 

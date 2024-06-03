@@ -1,4 +1,67 @@
       // FRONTEND // 
-1. npx create-react-app frontend
+1. npx create-react-app frontend 
+
 2. git init => Initialized empty Git repository 
-3. 
+
+3. git remote add origin https://github.com/isaac-kwame-yeboah/ReactProShop-demo.git
+   git branch -M main
+   git push -u origin main
+
+4. npm i react-bootstrap bootstrap react-icons => Install React Bootstrap, Bootstrap, react-icons
+
+5.  Nav className="ms-auto => Align Items to the Right
+    Nav className="me-auto => Align Items to the Left
+
+6. npm i react-router-dom => Installs react-router-dom package
+
+7. npm i react-router-bootstrap => Installs react-router-bootstrap package 
+
+8. npm i axios => Installs Axios Package
+
+9. npm i @reduxjs/toolkit react-redux => Installs Redux Toolkit Package
+
+10.  
+npm i @paypal/react-paypal-js ==> Install Paypal  
+
+11. npm i multer  => Installs Multer Package
+
+
+
+           // BACKEND //
+1. npm init => Installs package.json 
+
+2. npm i express => Installs Express Package 
+
+3. npm i colors => Installs Colors Package
+
+4. npm i nodemon concurrently => Installs Nodemon && concurrently Package 
+
+5. npm i dotenv => Install Dotenv Package 
+
+6. npm install mongoose => Installs Mongoose Package
+
+7. npm i bcryptjs => Installs Bcryptjs Package 
+
+8. npm i jsonwebtoken => Installs Jsonwebtoken Package  
+
+9. npm i cookie-parser 
+
+10.    developer.paypal.com/dashboard 
+        email: isaacyeboah.mi6@gmai.com
+        password: isaacpaypal2023 
+
+11.      /* Paypal Account  */
+     email: isaacyeboah.mi6@gmail.com  
+     Passowrd: reactPaypal2024  
+
+12.    /* Sandbox test accounts  */  
+    Bussiness Account Get Money Through The App =>> sb-r4k4830606361@business.example.com 
+    Personal Acoount is for payment =>> sb-fmh7630609631@personal.example.com 
+    password: hF:sm3.m
+
+13.    /* Client ID  */
+      Client ID: AeE-M96gy2K60a0tbukOkZSG-kMNln0tM90kZw5X7rcOOwfM9a2dmcyY5pTsBBOtR67jpBGXWq_3mnK-  
+
+14. npm i multer  => Installs Multer Package
+
+
